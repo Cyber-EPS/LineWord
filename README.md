@@ -9,18 +9,16 @@ You can give it `the keyword file to create the wordlist` yourself or enter it m
 
 ``
 
-`
-┌──(kali💀EPS)-[~/Templates]
-└─$ python3 lineword.py -h 
-usage: lineword.py [-h] [-i INPUT] [-m {basic,full}] [-o OUTPUT] [--min-len MIN_LEN]
+
+> usage: lineword.py [-h] [-i INPUT] [-m {basic,full}] [-o OUTPUT] [--min-len MIN_LEN]
                    [--max-len MAX_LEN] [--unique] [--shuffle] [--leet] [--years START END]
                    [--numbers [NUMBERS ...]] [--symbols [SYMBOLS ...]]
                    [--prefixes [PREFIXES ...]] [--suffixes [SUFFIXES ...]]
                    [--separators [SEPARATORS ...]] [--limit LIMIT] [--quiet] [--interactive]
 
-Advanced wordlist generator (English-only).
+ Advanced wordlist generator (English-only).
 
-options:
+ options:
   -h, --help            show this help message and exit
   -i, --input INPUT     Input file with base words (one per line). If omitted, interactive or
                         defaults are used.
@@ -48,7 +46,6 @@ options:
   --limit LIMIT         Stop after writing LIMIT entries (0 = no limit)
   --quiet               Minimal console output
   --interactive         Force interactive prompts to enter base words (overrides --input)
-
 
 `
 
