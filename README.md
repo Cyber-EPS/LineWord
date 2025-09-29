@@ -9,8 +9,6 @@ You can give it `the keyword file to create the wordlist` yourself or enter it m
 
 ``
 
-![Shot 0001](https://github.com/user-attachments/assets/428e3503-a471-4c5d-8265-1b384aafe4c7)
-``
 `
 ┌──(kali💀EPS)-[~/Templates]
 └─$ python3 lineword.py -h 
@@ -53,3 +51,6 @@ options:
 
 
 `
+
+
+![Shot 0001](https://github.com/user-attachments/assets/428e3503-a471-4c5d-8265-1b384aafe4c7)
